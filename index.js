@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 
-app.get("/aluno", (req, res )=> {
+app.get("/mãe", (req, res )=> {
     let usuario = {
                     nome: "Carolina Peres",
                     disciplina : "Topicos Especiais",
@@ -10,7 +10,7 @@ app.get("/aluno", (req, res )=> {
     res.send(usuario)
 }) ;
 
-app.get("/professores", (req, res )=> {
+app.get("/familia", (req, res )=> {
     let professores  = [ {
                     nome: "Marcelo Biczyk",
                     disciplina : "Banco de dados",
